@@ -31,10 +31,10 @@ function App() {
         </div>
       </div>
       <div ref={noelle} className="App-hero2">
-        <p>Noelle</p>
+        <p>Noelle Phil</p>
       </div>
       <div ref={henric} className="App-hero3">
-        <p>Henric</p>
+        <p>Henric Adler</p>
       </div>
     </div>
   );
