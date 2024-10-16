@@ -1,18 +1,40 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import combined from './utils/images/combined.jpg';
 import dance from './utils/images/dance.jpg';
 import './App.css';
 import './fonts.css';
 
 function App() {
+    const [isSticky, setIsSticky] = useState(false);
+    const logoRef = useRef<any>(null);
+
+    window.addEventListener('scroll', () => {
+        const textElement = document.getElementById('gottede');
+
+        if (logoRef.current) {
+            const { offsetTop } = logoRef.current;
+            const height = window.scrollY;
+            if (height > offsetTop) {
+                setIsSticky(true);
+            } else {
+                setIsSticky(false);
+            }
+        }
+    });
+
+    console.log(isSticky);
+
     return (
         <div className="App">
             <div className="App-hero">
                 <div className="content-container">
-                    <p className="Logo-text">ADLER PHIL</p>
-                    <p className="arcitect-text">arkitekter</p>
+                    <p className={isSticky ? 'sticky-text' : 'Logo-text'} ref={logoRef}>
+                        ADLER PHIL
+                    </p>
+                    {isSticky ? null : <p className="arcitect-text">arkitekter</p>}
                 </div>
             </div>
+            <div className="content-hero"></div>
         </div>
     );
 }

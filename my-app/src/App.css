@@ -21,8 +21,21 @@
   font-size: 4em;
 }
 
+.sticky-text {
+  margin: 0;
+  font-weight: 800;
+  font-size: 3em;
+  position: fixed;
+  top: 20px;
+}
+
 .arcitect-text {
   margin: 0;
   margin-left: 1em;
   font-size: 3em;
+}
+
+.content-hero {
+  min-height: 100vh;
+  background: aqua;
 }
