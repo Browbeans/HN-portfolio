@@ -28,10 +28,25 @@ function App() {
         <div className="App">
             <div className="App-hero">
                 <div className="content-container">
-                    <p className={isSticky ? 'sticky-text' : 'Logo-text'} ref={logoRef}>
-                        ADLER PHIL
-                    </p>
-                    {isSticky ? null : <p className="arcitect-text">arkitekter</p>}
+                    {isSticky ? (
+                        <div className="sticky-nav" ref={logoRef}>
+                            <p className={'sticky-text'}>ADLER PHIL</p>
+                            <div className="sticky-menu">
+                                <p className="menu-text">Projects</p>
+                                <p className="menu-text">Objects</p>
+                                <p className="menu-text">Contact</p>
+                            </div>
+                        </div>
+                    ) : null}
+
+                    {isSticky ? null : (
+                        <div className="logo-container">
+                            <p className={'Logo-text'} ref={logoRef}>
+                                ADLER PHIL
+                            </p>
+                            <p className="arcitect-text">arkitekter</p>
+                        </div>
+                    )}
                 </div>
             </div>
             <div className="content-hero"></div>
