@@ -1,6 +1,4 @@
 import React, { useRef, useState } from 'react';
-import combined from './utils/images/combined.jpg';
-import dance from './utils/images/dance.jpg';
 import './App.css';
 import './fonts.css';
 
@@ -9,8 +7,6 @@ function App() {
     const logoRef = useRef<any>(null);
 
     window.addEventListener('scroll', () => {
-        const textElement = document.getElementById('gottede');
-
         if (logoRef.current) {
             const { offsetTop } = logoRef.current;
             const height = window.scrollY;
@@ -21,8 +17,6 @@ function App() {
             }
         }
     });
-
-    console.log(isSticky);
 
     return (
         <div className="App">
