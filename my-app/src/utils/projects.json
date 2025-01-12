@@ -1,0 +1,15 @@
+[{
+    "category": "Housing", 
+    "creator": "Noelle", 
+    "imageUrl": "assets/projectname/first", 
+    "projectName": "Långedrag", 
+    "createdAt": "2022-01-10"
+}, 
+{
+    "category": "Boat", 
+    "creator": "Henric", 
+    "imageUrl": "assets/mölndal/first", 
+    "projectName": "Mölndal", 
+    "createdAt": "2024-12-10"
+}
+]
