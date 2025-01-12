@@ -1,5 +1,6 @@
 import { css, Stack, styled } from '@mui/system';
 import projects from '../../assets/projects/base.json';
+import { useNavigate } from 'react-router-dom';
 
 const FullWidthContainer = styled('div')`
     width: 100%;
@@ -10,6 +11,9 @@ const FullWidthContainer = styled('div')`
 
 const Image = styled('img')`
     width: 100%;
+    :hover {
+        box-shadow: 0 0 3px #515151;
+    }
 `;
 
 const ProjectsHero = styled(Stack)(
@@ -21,7 +25,7 @@ const ProjectsHero = styled(Stack)(
             flex-direction: row;
             justify-content: space-between;
             & > *:nth-child(3n + 2) {
-                width: 28%;
+                width: 30%;
             }
             flex-wrap: wrap;
         }
@@ -33,8 +37,9 @@ const ProjectContainer = styled(Stack)(
         width: 100%;
         box-sizing: border-box;
         ${breakpoints.up('sm')} {
-            width: 36%;
+            width: 35%;
         }
+        cursor: pointer;
         :hover {
             > h3 {
                 opacity: 1;
@@ -58,13 +63,20 @@ const ProjectName = styled('h3')(
 );
 
 export const ProjectList = () => {
+    const navigate = useNavigate();
+
     return (
         <FullWidthContainer>
             <ProjectsHero>
                 {projects.projects.map(project => {
                     const imagePath = require(`../../assets/images/${project.name}/main.jpg`);
                     return (
-                        <ProjectContainer key={project.name} px={{ xs: 2, sm: 4 }} pb={{ xs: 3 }}>
+                        <ProjectContainer
+                            key={project.name}
+                            px={{ xs: 2, sm: 4 }}
+                            pb={{ xs: 3 }}
+                            onClick={() => navigate(`/details/${project.name}`)}
+                        >
                             <Image alt={project.name} src={imagePath} />
                             <ProjectName>{project.name}</ProjectName>
                         </ProjectContainer>

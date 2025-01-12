@@ -1,9 +1,13 @@
 import { useRef, useState } from 'react';
 import { ProjectList } from './ProjectList/ProjectList';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import { Project } from './Project/Project';
 
 export const StartPage = () => {
     const [isSticky, setIsSticky] = useState(false);
     const logoRef = useRef<any>(null);
+    const location = useLocation();
+    const isStartPage = location.pathname.endsWith('/');
 
     window.addEventListener('scroll', () => {
         if (logoRef.current) {
@@ -19,9 +23,9 @@ export const StartPage = () => {
 
     return (
         <>
-            <div className="App-hero">
+            <div className={isStartPage ? 'App-hero' : ''}>
                 <div className="content-container">
-                    {isSticky ? (
+                    {isSticky || !isStartPage ? (
                         <div className="sticky-nav" ref={logoRef}>
                             <p className={'sticky-text'}>ADLER PHIL</p>
                             <div className="sticky-menu">
@@ -32,7 +36,7 @@ export const StartPage = () => {
                         </div>
                     ) : null}
 
-                    {isSticky ? null : (
+                    {isSticky || !isStartPage ? null : (
                         <div className="logo-container">
                             <p className={'Logo-text'} ref={logoRef}>
                                 ADLER PHIL
@@ -42,7 +46,10 @@ export const StartPage = () => {
                     )}
                 </div>
             </div>
-            <ProjectList />
+            <Routes>
+                <Route path="/details/:name" element={<Project />} />
+                <Route path="/" element={<ProjectList />} />
+            </Routes>
         </>
     );
 };
