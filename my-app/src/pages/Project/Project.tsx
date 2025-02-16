@@ -68,7 +68,7 @@ const ListText = styled('p')`
 export const Project = () => {
     const { name } = useParams();
     const mainImage = require(`../../assets/images/${name}/main.jpg`);
-    const showcase1 = require(`../../assets/images/${name}/showcase1.jpg`);
+    // const showcase1 = require(`../../assets/images/${name}/showcase1.jpg`);
     const currentProject = ProjectJson.projects.find(project => project.name === name);
 
     useEffect(() => {
@@ -77,10 +77,10 @@ export const Project = () => {
 
     return (
         <PageWrapper>
-            <ContentContainer mt={15}>
+            <ContentContainer mt={10}>
                 <MainImage alt={name} src={mainImage} />
                 <Stack
-                    mt={1.5}
+                    mt={3}
                     width={{ xs: '100%', sm: '90%' }}
                     direction={{ xs: 'column', sm: 'row' }}
                     justifyContent="space-between"
@@ -104,9 +104,9 @@ export const Project = () => {
                         <Description>{currentProject?.description}</Description>
                     </Stack>
                 </Stack>
-                <Stack mb={5} mt={10} width="100%">
+                {/* <Stack mb={5} mt={10} width="100%">
                     <Image src={showcase1} alt="Second image" />
-                </Stack>
+                </Stack> */}
             </ContentContainer>
         </PageWrapper>
     );

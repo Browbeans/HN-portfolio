@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { ProjectList } from './ProjectList/ProjectList';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { Project } from './Project/Project';
+import { Contact } from './Contact/Contact';
 
 export const StartPage = () => {
     const [isSticky, setIsSticky] = useState(false);
@@ -34,7 +35,9 @@ export const StartPage = () => {
                             <div className="sticky-menu">
                                 <p className="menu-text">Projects</p>
                                 <p className="menu-text">Objects</p>
-                                <p className="menu-text">Contact</p>
+                                <p onClick={() => navigate('/contact')} className="menu-text">
+                                    Contact
+                                </p>
                             </div>
                         </div>
                     ) : null}
@@ -50,6 +53,7 @@ export const StartPage = () => {
                 </div>
             </div>
             <Routes>
+                <Route path="/contact" element={<Contact />} />
                 <Route path="/details/:name" element={<Project />} />
                 <Route path="/" element={<ProjectList />} />
             </Routes>
