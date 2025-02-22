@@ -69,7 +69,7 @@ export const ProjectList = () => {
         <FullWidthContainer>
             <ProjectsHero>
                 {projects.projects.map(project => {
-                    const imagePath = require(`../../assets/images/${project.name}/main.jpg`);
+                    const imagePath = require(`../../assets/images/${project.name}/main.png`);
                     return (
                         <ProjectContainer
                             key={project.name}

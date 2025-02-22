@@ -1,9 +1,10 @@
 @font-face {
     font-family: 'CustomFont';
-    src: url('./fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf') format('woff2'),
-         url('./fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf') format('woff'),
-         url('./fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf') format('truetype'),
-         url('./fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf') format('bold');
+    src: url('./fonts/neutra-text-alt/neutra-text-alt-587261020eccb.otf') format('woff2'),
+         url('./fonts/neutra-text-alt/neutra-text-bold-5871e1605afa2.otf') format('woff'),
+         url('./fonts/neutra-text-alt/neutra-text-bold-italic-5872615974382.otf') format('truetype'),
+         url('./fonts/neutra-text-alt/neutra-text-light-5872613aeda5b.otf') format('bold'),
+         url('./fonts/neutra-text-alt/neutra-text-tf-5871e0b0704ed.otf') format('bold');
          
     font-weight: normal;
     font-style: normal;

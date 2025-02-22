@@ -30,7 +30,7 @@ export const StartPage = () => {
                     {isSticky || !isStartPage ? (
                         <div className="sticky-nav" ref={logoRef}>
                             <p className={'sticky-text'} onClick={() => navigate('/')}>
-                                ADLER PHIL
+                                ADLER PIHL
                             </p>
                             <div className="sticky-menu">
                                 <p className="menu-text">Projects</p>
@@ -45,7 +45,7 @@ export const StartPage = () => {
                     {isSticky || !isStartPage ? null : (
                         <div className="logo-container">
                             <p className={'Logo-text'} ref={logoRef}>
-                                ADLER PHIL
+                                ADLER PIHL
                             </p>
                             <p className="arcitect-text">arkitekter</p>
                         </div>

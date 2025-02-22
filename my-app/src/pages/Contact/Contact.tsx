@@ -30,6 +30,7 @@ const LinkText = styled('a')`
 
 const NameText = styled('h2')`
     margin: 0;
+    margin-bottom: 8px;
 `;
 
 const MainImage = styled('img')(
@@ -51,12 +52,12 @@ export const Contact = () => {
                     <Box>
                         <NameText>Henric</NameText>
 
-                        <LinkText target="_blank" href="https://issuu.com/henricadler/docs/portfolio_kort_version_">
-                            Portfolio
-                        </LinkText>
-                        <div>
-                            <LinkText href="mailto:henricader@gmail.com">henricader@gmail.com</LinkText>
-                        </div>
+                        <Box mb={1}>
+                            <LinkText target="_blank" href="https://issuu.com/henricadler/docs/portfolio_kort_version_">
+                                Portfolio
+                            </LinkText>
+                        </Box>
+                        <LinkText href="mailto:henricader@gmail.com">henricadler@gmail.com</LinkText>
                     </Box>
                     <div style={{ cursor: 'pointer' }}>
                         <LinkedInIcon
@@ -70,12 +71,12 @@ export const Contact = () => {
                 <Stack direction="row" justifyContent="space-between" alignItems="center">
                     <Box>
                         <NameText>Noelle</NameText>
-                        <LinkText target="_blank" href="https://issuu.com/noellepihl/docs/portfolio">
-                            Portfolio
-                        </LinkText>
-                        <div>
-                            <LinkText href="mailto:phil.noelle@gmail.com">phil.noelle@gmail.com</LinkText>
-                        </div>
+                        <Box mb={1}>
+                            <LinkText target="_blank" href="https://issuu.com/noellepihl/docs/portfolio">
+                                Portfolio
+                            </LinkText>
+                        </Box>
+                        <LinkText href="mailto:pihl.noelle@gmail.com">pihl.noelle@gmail.com</LinkText>
                     </Box>
                     <div style={{ cursor: 'pointer' }}>
                         <LinkedInIcon
