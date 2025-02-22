@@ -2,6 +2,7 @@
     "projects": [
         {
             "name": "Verksam",
+            "type": "Project",
             "author": "Noelle", 
             "city": "Umeå", 
             "street": "Utgård 15", 
@@ -10,7 +11,38 @@
             "description": "Verksam är ett projekt som utforskar begreppet åldrande, både i mänsklig form och i materialitet. Dess syfte är att ta itu med frågor om eller när något eller någon blir för gammal och förbrukad för att ses som något användbart. Projektet är utformat för att göra det som för närvarande betraktas som värdelöst till något användbart. Detta görs genom att skapa en plats för äldre att hjälpa varandra i ett samboende boendeprogram för personer över 60 år, där målet är att reparera de äldres känsla av att vara onyttiga samt den övergivna tomten på storgatan i Umeå, och att åter göra den till något värdefullt med hållbara och återställande åtgärder. Projektet tar plats på storgatan, en av Umeås längsta gator som sträcker sig från den gamla stadsgränsen nära Tvärån i väst, ända bort till sjukhuset på östra sidan av staden. Det gör platsen mycket lättillgänglig. Trots att den har en relativt liten yta är platsen rik på historia tack vare att byggnaderna som finns där är från olika tidsperioder. Den byggnad som står till vänster är från 1800-talet, medan den blandade byggnaden till höger, med ett anslutande växthus, är något nyare och uppfördes år 2003."
         },
         {
+            "name": "Lovvärd", 
+            "type": "Project",
+            "author": "Henric",
+            "city": "Umeå",
+            "street": "Norra ön",
+            "year": "2024", 
+            "status": "Planeringstadie",
+            "description": "Den föreslagna byggnaden på Norra Ön i Umeå, en plats under utveckling, strävar efter att koppla samman stadsdelen med resten av staden. Genom att implementera traditionella och hållbara byggtekniker görs byggnaden både ekologiskt och socialt hållbar. Samtliga fönster, förutom de som vetter mot innergården, döljs bakom böjd träpanel för att skapa illusionen av den traditionella, slutna ladufasaden. Projektet syftar till att skapa en plats där seniorer och barn kan mötas, lära av varandra och dela erfarenheter. Byggnaden huserar utrymmen för lek, konst och hantverk, ett kök och matsal samt en separat verkstad. Denna verkstad planeras att vara utrustad med större maskiner och ge möjlighet till att arbeta med större byggprojekt och annat kreativt skapande. En viktig del av designen är också loftet, som huserar ett auditorium för större aktiviteter och föreställningar, samt erbjuder utrymme för förvaring av material och projekt."
+        },
+        {
+            "name": "Sven", 
+            "type": "Object",
+            "author": "Henric",
+            "city": "No location",
+            "street": "",
+            "year": "2024", 
+            "status": "Färdig",
+            "description": "En design där anpassningsförmåga utefter miljö stod i fokus. Stolen Sven är utformad i robust design som möter sin omgivning med lätthet i optimeringsbar-anda, utan att kompromissa med komfort. "
+        },
+        {
+            "name": "Domestic-Weather", 
+            "type": "Object",
+            "author": "Henric",
+            "city": "No location",
+            "street": "",
+            "year": "2024", 
+            "status": "Färdig",
+            "description": "Projektet handlar om att identifiera vilka ventilationsstrategier, i kombination med specifika arkitektoniska designbeslut, som skulle främja ett mer passivt och i sin tur energiavlastande ventilationsystem. För att kunna identifiera dessa strategier byggdes ett fysikt samt virtuellt laboratorium för att ge möjligheten att testa - jämföra - dra slutsats och slutligen implementera i vad som komma bli designförslaget. Domestic Weather syftar till att belysa vikten av volymetriska relationer och samspelet mellan naturlig och mekanisk ventilation. De geometriska relationerna inom en byggnads volym beaktas för att optimera naturligt luftflöde, vilket i sin tur minskar behovet av mekanisk ventilation. Projektet aspirerar till att inspirera, samt advocerar för att ventilationssystemet bör integreras direkt i designen snarare än att tilldelas ett separat ventilationsrum."
+        },
+        {
             "name": "Önabben", 
+            "type": "Project",
             "author": "Noelle",
             "city": "Umeå", 
             "street": "Ön", 
@@ -19,7 +51,28 @@
             "description": "Önabbe tidigare känt som Öhn, är denna ö och distrikt beläget i umeälven, i hjärtat av umeå. med en befolkning på cirka 280 personer år 2005, står nu ön inför en spännande transformation. Umeå kommun har ambitiösa planer på att skapa ett helt nytt område med plats för ungefär 2 800 nya hem och företag. Beläget med panoramautsikt över stadens kärna, utgör den norra spetsen av ön en vital länk mellan stadskärnan och övriga områden. denna unika plats bär på en betydande potential att bli en av Umeås mest eftertraktade turistdestinationer och en ikonisk symbol för staden som helhet. Projektet Önabben föreslår ett program bestående av lägenhetsmoduler som varierar i storlek för att passa både nyinflyttade studenter, familjer och äldre i Umeås samhälle. Ett bostadskomplex som hyllar social mångfald och inte tar hänsyn till sociala och ekonomiska statusar."
         }, 
         {
+            "name": "Kuvithcenko", 
+            "type": "Project",
+            "author": "Noelle",
+            "city": "Chernihiv",
+            "street": "Novoselivka",
+            "year": "2024", 
+            "status": "Planeringstadie",
+            "description": "Vi måste bygga mer sällan. Som nyutexaminerad arkitektstudent hade man hoppats på en mer upplyftande insikt, men det är tydligare än någonsin att det inte räcker att bygga ”grönt” – vi måste, för vårt klimats skull, minska byggandet. Paradoxalt nog ökar efterfrågan på bostäder på grund av krig och klimatförändringar, vilket skapar ett etiskt dilemma. Att utöva arkitektur på distans i krisområden som Ukraina är komplext, men jag anser att det är viktigt att inte låta personliga farhågor stå i vägen. I detta projekt har jag dragit lärdom av filosofin inom Slow Architecture, som förespråkar att ”sänka tempot” och noggrant överväga de många faktorer som påverkar en byggnad, såsom platsens historia, den omgivande naturmiljön, och behoven hos invånarna och samhället i stort. Genom att tillämpa dessa principer strävar projektet efter att balansera akuta skyddsbehov med bevarandet av en nations identitet, genom att föreslå en hållbar arkitektur för Kuvitchenko-gatan i Novoselivka, utanför staden Chernihiv i norra Ukraina."
+        },
+        {
+            "name": "Tillsammans", 
+            "type": "Project",
+            "author": "Henric",
+            "city": "Unknown",
+            "street": "Unkown",
+            "year": "2024", 
+            "status": "Färdig",
+            "description": "Projektet utforskar cohousing och aspirerar att göra konceptet mer attraktivt för en bredare målgrupp. För att främja kollektivism i olika former tar designförslaget hänsyn till att olika utrymmen används av olika antal personer. Detta då det enligt forskning en god idé att utrymmen som används mer sällan, såsom verkstäder, hobbyrum och tvättstugor, kan delas av hela gemenskapen. För mer frekvent använda gemensamma utrymmen, som lekrum, TV-rum, vardagsrum och matsalar, rekommenderas att dessa delas av en mindre grupp individer. I ljuset av detta, och för att tillgodose dessa behov samt dra ner på antal kvadratmeter i de separata hushållen, så föreslås en gemensam modul att dela och anpassa individuellt mellan två separata hushåll. Kök, sovrum och badrum, som används på daglig basis, förblir privata och delas endast inom varje hushåll. Detta resonemang betonar vikten av integritet i de mest personliga utrymmena. Tanken med projektet är att det ska främja gemenskap, samt tillgodose möjligheter att kunna växa och åldras i hemmet genom att kunna anpassa [ utöka eller minska ] hushållet efter behov. Detta möjliggörs genom den gemensamma modulen, i kombination med relationerna och utbytet med ens grannar."
+        },
+        {
             "name": "Grundad", 
+            "type": "Project",
             "author": "Noelle",
             "city": "Umeå", 
             "street": "Ålidhem", 
@@ -28,13 +81,14 @@
             "description": "Grundad är ett projekt som utforskar vikten av att möjliggöra för människor att växa med sina bostäder samt betoningen av att bygga flexibla bostäder med tanke på miljöaspekterna. projektet lyfter fram en aktuell utmaning där många bostadsområden i Sverige, som en gång byggdes för att erbjuda en god livskvalitet till rimliga kostnader, nu upplever svårigheter med att upprätthålla prisvärda boenden. Genom att fokusera på historiska miljonprogramsområden visar projektet hur många äldre fastigheter står inför renoveringsbehov och ökande hyror, vilket leder till en diskussion om hållbarhet och behovet av att anpassa befintliga strukturer för att möta dagens behov. Ålidhem är ett område i Umeå som byggdes som en del av miljonprogrammet. Bostäderna i Ålidhem byggdes medvetet i olika storlekar och konfigurationer med målsättningen att skapa grannskap med människor från olika bakgrunder och inkomstnivåer. Men idag har oro väckts om att kommunens fokus på att locka studenter och marknadsföra Ålidhem som ett studentområde riskerar att sudda ut mångfalden i området."
         }, 
         {
-            "name": "Kuvithcenko", 
-            "author": "Noelle",
-            "city": "Chernihiv",
-            "street": "Novoselivka",
+            "name": "Wall-e", 
+            "type": "Object",
+            "author": "Henric",
+            "city": "No location",
+            "street": "",
             "year": "2024", 
-            "status": "Planeringstadie",
-            "description": "Vi måste bygga mer sällan. Som nyutexaminerad arkitektstudent hade man hoppats på en mer upplyftande insikt, men det är tydligare än någonsin att det inte räcker att bygga ”grönt” – vi måste, för vårt klimats skull, minska byggandet. Paradoxalt nog ökar efterfrågan på bostäder på grund av krig och klimatförändringar, vilket skapar ett etiskt dilemma. Att utöva arkitektur på distans i krisområden som Ukraina är komplext, men jag anser att det är viktigt att inte låta personliga farhågor stå i vägen. I detta projekt har jag dragit lärdom av filosofin inom Slow Architecture, som förespråkar att ”sänka tempot” och noggrant överväga de många faktorer som påverkar en byggnad, såsom platsens historia, den omgivande naturmiljön, och behoven hos invånarna och samhället i stort. Genom att tillämpa dessa principer strävar projektet efter att balansera akuta skyddsbehov med bevarandet av en nations identitet, genom att föreslå en hållbar arkitektur för Kuvitchenko-gatan i Novoselivka, utanför staden Chernihiv i norra Ukraina."
+            "status": "Färdig",
+            "description": "Konceptbaserad design där platsbesparing var av stor vikt. WALL-E är en stol som lätt monteras ihop eller stuvas undan i ett väggintegrerat läge."
         }
     ]
 }
