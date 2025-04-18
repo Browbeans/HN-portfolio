@@ -20,6 +20,7 @@ const ProjectsHero = styled(Stack)(
     ({ theme: { breakpoints } }) => css`
         min-height: 100vh;
         flex-direction: column;
+        margin-bottom: 30px;
         ${breakpoints.up('sm')} {
             width: 80%;
             flex-direction: row;
