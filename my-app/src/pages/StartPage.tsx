@@ -107,7 +107,12 @@ export const StartPage = () => {
                     ) : null}
 
                     {isSticky || !isStartPage ? null : (
-                        <Box display="flex" alignItems="center" flexDirection={{ sm: 'row', xs: 'column' }}>
+                        <Box
+                            ml={{ sm: 2, xs: 0 }}
+                            display="flex"
+                            alignItems="center"
+                            flexDirection={{ sm: 'row', xs: 'column' }}
+                        >
                             <LogoText ref={logoRef}>ADLER PIHL</LogoText>
                             <p className="arcitect-text">arkitekter</p>
                         </Box>
