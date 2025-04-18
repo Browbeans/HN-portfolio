@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://browbeans.github.io/HN-portfolio/",
+  "homepage": "https://browbeans.github.io/HN-portfolio/start",
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
@@ -26,6 +26,7 @@
   "scripts": {
     "predeploy": "npm run build", 
     "deploy": "gh-pages -d build",
+    "postbuild": "cp build/index.html build/404.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
