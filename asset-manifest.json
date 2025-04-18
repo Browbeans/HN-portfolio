@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/HN-portfolio/start/static/css/main.c8d8fe92.css",
-    "main.js": "/HN-portfolio/start/static/js/main.e8ae76ff.js",
-    "static/js/453.68693753.chunk.js": "/HN-portfolio/start/static/js/453.68693753.chunk.js",
-    "static/media/details1.png": "/HN-portfolio/start/static/media/details1.27d78cd9a243c26ce4f1.png",
-    "static/media/main.png": "/HN-portfolio/start/static/media/main.5ef600cb54099c7ad9cf.png",
-    "static/media/details3.png": "/HN-portfolio/start/static/media/details3.6c3c17112c03c53ce0b8.png",
-    "static/media/details2.png": "/HN-portfolio/start/static/media/details2.7967ce73708cd7fbc459.png",
-    "static/media/details4.png": "/HN-portfolio/start/static/media/details4.da094a7717ae35662a81.png",
-    "static/media/noelle.jpg": "/HN-portfolio/start/static/media/noelle.43f03b3096f69557d690.jpg",
-    "static/media/henric.jpg": "/HN-portfolio/start/static/media/henric.caa39bc00e4fce1d9075.jpg",
-    "static/media/neutra-text-alt-587261020eccb.otf": "/HN-portfolio/start/static/media/neutra-text-alt-587261020eccb.545849e32c3bacc056f6.otf",
-    "static/media/neutra-text-bold-italic-5872615974382.otf": "/HN-portfolio/start/static/media/neutra-text-bold-italic-5872615974382.710785908413980ef04c.otf",
-    "static/media/neutra-text-tf-5871e0b0704ed.otf": "/HN-portfolio/start/static/media/neutra-text-tf-5871e0b0704ed.82684eb02337c5b2c025.otf",
-    "static/media/neutra-text-bold-5871e1605afa2.otf": "/HN-portfolio/start/static/media/neutra-text-bold-5871e1605afa2.b1aa51e1de971d922e33.otf",
-    "static/media/neutra-text-light-5872613aeda5b.otf": "/HN-portfolio/start/static/media/neutra-text-light-5872613aeda5b.ab0ab0e04bc3550bee3e.otf",
-    "index.html": "/HN-portfolio/start/index.html",
-    "main.c8d8fe92.css.map": "/HN-portfolio/start/static/css/main.c8d8fe92.css.map",
-    "main.e8ae76ff.js.map": "/HN-portfolio/start/static/js/main.e8ae76ff.js.map",
-    "453.68693753.chunk.js.map": "/HN-portfolio/start/static/js/453.68693753.chunk.js.map"
+    "main.css": "/HN-portfolio/my-app/static/css/main.55f4cd85.css",
+    "main.js": "/HN-portfolio/my-app/static/js/main.6ff88aeb.js",
+    "static/js/453.68693753.chunk.js": "/HN-portfolio/my-app/static/js/453.68693753.chunk.js",
+    "static/media/details1.png": "/HN-portfolio/my-app/static/media/details1.27d78cd9a243c26ce4f1.png",
+    "static/media/main.png": "/HN-portfolio/my-app/static/media/main.5ef600cb54099c7ad9cf.png",
+    "static/media/details3.png": "/HN-portfolio/my-app/static/media/details3.6c3c17112c03c53ce0b8.png",
+    "static/media/details2.png": "/HN-portfolio/my-app/static/media/details2.7967ce73708cd7fbc459.png",
+    "static/media/details4.png": "/HN-portfolio/my-app/static/media/details4.da094a7717ae35662a81.png",
+    "static/media/noelle.jpg": "/HN-portfolio/my-app/static/media/noelle.43f03b3096f69557d690.jpg",
+    "static/media/henric.jpg": "/HN-portfolio/my-app/static/media/henric.caa39bc00e4fce1d9075.jpg",
+    "static/media/neutra-text-alt-587261020eccb.otf": "/HN-portfolio/my-app/static/media/neutra-text-alt-587261020eccb.545849e32c3bacc056f6.otf",
+    "static/media/neutra-text-bold-italic-5872615974382.otf": "/HN-portfolio/my-app/static/media/neutra-text-bold-italic-5872615974382.710785908413980ef04c.otf",
+    "static/media/neutra-text-tf-5871e0b0704ed.otf": "/HN-portfolio/my-app/static/media/neutra-text-tf-5871e0b0704ed.82684eb02337c5b2c025.otf",
+    "static/media/neutra-text-bold-5871e1605afa2.otf": "/HN-portfolio/my-app/static/media/neutra-text-bold-5871e1605afa2.b1aa51e1de971d922e33.otf",
+    "static/media/neutra-text-light-5872613aeda5b.otf": "/HN-portfolio/my-app/static/media/neutra-text-light-5872613aeda5b.ab0ab0e04bc3550bee3e.otf",
+    "index.html": "/HN-portfolio/my-app/index.html",
+    "main.55f4cd85.css.map": "/HN-portfolio/my-app/static/css/main.55f4cd85.css.map",
+    "main.6ff88aeb.js.map": "/HN-portfolio/my-app/static/js/main.6ff88aeb.js.map",
+    "453.68693753.chunk.js.map": "/HN-portfolio/my-app/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8d8fe92.css",
-    "static/js/main.e8ae76ff.js"
+    "static/css/main.55f4cd85.css",
+    "static/js/main.6ff88aeb.js"
   ]
 }
