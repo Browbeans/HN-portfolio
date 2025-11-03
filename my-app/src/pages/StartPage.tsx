@@ -123,16 +123,7 @@ export const StartPage = () => {
                     )}
                 </Box>
             </Box>
-            {location.pathname.endsWith('/') ? (
-                <>
-                    <ProjectList />
-                    <Box mt={5} width="100%" sx={{ background: '#000' }} height="500px">
-                        <Stack justifyContent="center" alignItems="center">
-                            <FooterText>Adler Pihl</FooterText>
-                        </Stack>
-                    </Box>
-                </>
-            ) : null}
+            {location.pathname.endsWith('/') ? <ProjectList /> : null}
             <Routes>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/details/:name" element={<Project />} />
