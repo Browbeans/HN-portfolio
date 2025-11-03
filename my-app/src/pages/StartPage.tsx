@@ -3,7 +3,7 @@ import { ProjectList } from './ProjectList/ProjectList';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { Project } from './Project/Project';
 import { Contact } from './Contact/Contact';
-import { Box, breakpoints, css, spacing, styled } from '@mui/system';
+import { Box, css, Stack, styled } from '@mui/system';
 
 const StickyText = styled('p')(
     ({ theme: { breakpoints, spacing } }) => css`
@@ -21,6 +21,11 @@ const StickyText = styled('p')(
     `,
 );
 
+const FooterText = styled('p')`
+    color: white;
+    font-size: 56px;
+`;
+
 const LogoText = styled('p')(
     ({ theme: { breakpoints, spacing } }) => css`
         margin: 0;
@@ -36,11 +41,11 @@ const LogoText = styled('p')(
 const Menu = styled(Box)(
     ({ theme: { spacing, breakpoints } }) => css`
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         width: 20%;
         align-items: flex-end;
         height: 60px;
-        margin-right: ${spacing(10)};
+        margin-right: ${spacing(20)};
 
         ${breakpoints.down('sm')} {
             margin-right: 0;
@@ -94,13 +99,12 @@ export const StartPage = () => {
                             alignItems="flex-end"
                             pb={1}
                             ref={logoRef}
+                            sx={{ background: '#FEFEFE' }}
                         >
                             <StickyText onClick={() => navigate('/')}>ADLER PIHL</StickyText>
                             <Menu>
-                                <p className="menu-text">Projects</p>
-                                <p className="menu-text">Objects</p>
                                 <p onClick={() => navigate('/contact')} className="menu-text">
-                                    Contact
+                                    Om oss
                                 </p>
                             </Menu>
                         </Box>
@@ -119,10 +123,19 @@ export const StartPage = () => {
                     )}
                 </Box>
             </Box>
+            {location.pathname.endsWith('/') ? (
+                <>
+                    <ProjectList />
+                    <Box mt={5} width="100%" sx={{ background: '#000' }} height="500px">
+                        <Stack justifyContent="center" alignItems="center">
+                            <FooterText>Adler Pihl</FooterText>
+                        </Stack>
+                    </Box>
+                </>
+            ) : null}
             <Routes>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/details/:name" element={<Project />} />
-                <Route path="/" element={<ProjectList />} />
             </Routes>
         </>
     );

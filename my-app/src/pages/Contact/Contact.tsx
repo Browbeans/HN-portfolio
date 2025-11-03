@@ -63,9 +63,9 @@ export const Contact = () => {
                 width={{ md: '40%', xs: '100%' }}
                 justifyContent="space-between"
             >
-                <Box textAlign="start">
+                <Box textAlign="start" mr={{ xs: 0, sm: 3 }}>
                     <MainImage src={Henric} alt="henric" />
-                    <Stack direction="row" justifyContent="space-between" alignItems="center">
+                    <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
                         <Box>
                             <NameText>Henric</NameText>
 
@@ -88,9 +88,9 @@ export const Contact = () => {
                         </div>
                     </Stack>
                 </Box>
-                <Box textAlign="start">
+                <Box textAlign="start" ml={{ xs: 0, sm: 3 }}>
                     <MainImage src={Noelle} alt="noelle" />
-                    <Stack direction="row" justifyContent="space-between" alignItems="center">
+                    <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
                         <Box>
                             <NameText>Noelle</NameText>
                             <Box mb={1}>

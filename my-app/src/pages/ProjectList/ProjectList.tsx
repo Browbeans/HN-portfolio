@@ -1,6 +1,7 @@
 import { css, Stack, styled } from '@mui/system';
 import projects from '../../assets/projects/base.json';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { log } from 'console';
 
 const FullWidthContainer = styled('div')`
     width: 100%;
@@ -76,7 +77,7 @@ export const ProjectList = () => {
                             key={project.name}
                             px={{ xs: 2, sm: 4 }}
                             pb={{ xs: 3 }}
-                            onClick={() => navigate(`/details/${project.name}`)}
+                            onClick={() => navigate(`details/${project.name}`)}
                         >
                             <Image alt={project.name} src={imagePath} />
                             <ProjectName>{project.name}</ProjectName>

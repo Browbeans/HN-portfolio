@@ -165,7 +165,7 @@ export const Project = () => {
                             <Box
                                 mr={2}
                                 height="80px"
-                                width="80px"
+                                // width="80px"
                                 onClick={() => setCurrentImage({ image: mainImage, index: 0 })}
                             >
                                 <Image alt="details1" src={mainImage} />
@@ -173,7 +173,7 @@ export const Project = () => {
                             <Box
                                 mr={2}
                                 height="80px"
-                                width="80px"
+                                // width="80px"
                                 onClick={() => setCurrentImage({ image: details1, index: 1 })}
                             >
                                 <Image alt="details1" src={details1} />
@@ -181,7 +181,7 @@ export const Project = () => {
                             <Box
                                 mr={2}
                                 height="80px"
-                                width="80px"
+                                // width="80px"
                                 onClick={() => setCurrentImage({ image: details2, index: 2 })}
                             >
                                 <Image alt="details2" src={details2} />
@@ -189,7 +189,7 @@ export const Project = () => {
                             <Box
                                 mr={2}
                                 height="80px"
-                                width="80px"
+                                // width="80px"
                                 onClick={() => setCurrentImage({ image: details3, index: 3 })}
                             >
                                 <Image alt="details3" src={details3} />
@@ -197,7 +197,7 @@ export const Project = () => {
                             <Box
                                 mr={2}
                                 height="80px"
-                                width="80px"
+                                // width="80px"
                                 onClick={() => setCurrentImage({ image: details4, index: 4 })}
                             >
                                 <Image alt="details4" src={details4} />
