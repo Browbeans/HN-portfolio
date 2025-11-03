@@ -28,7 +28,7 @@ const ImageWrapper = styled(Stack)(
 
 const MainImage = styled('img')(
     ({ theme: { breakpoints } }) => css`
-        object-fit: cover;
+        object-fit: contain;
         width: 100%;
         cursor: pointer;
         ${breakpoints.up('sm')} {
@@ -162,44 +162,19 @@ export const Project = () => {
                             }}
                         />
                         <Stack width="100%" direction="row" mt={2}>
-                            <Box
-                                mr={2}
-                                height="80px"
-                                // width="80px"
-                                onClick={() => setCurrentImage({ image: mainImage, index: 0 })}
-                            >
+                            <Box mr={2} height="80px" onClick={() => setCurrentImage({ image: mainImage, index: 0 })}>
                                 <Image alt="details1" src={mainImage} />
                             </Box>
-                            <Box
-                                mr={2}
-                                height="80px"
-                                // width="80px"
-                                onClick={() => setCurrentImage({ image: details1, index: 1 })}
-                            >
+                            <Box mr={2} height="80px" onClick={() => setCurrentImage({ image: details1, index: 1 })}>
                                 <Image alt="details1" src={details1} />
                             </Box>
-                            <Box
-                                mr={2}
-                                height="80px"
-                                // width="80px"
-                                onClick={() => setCurrentImage({ image: details2, index: 2 })}
-                            >
+                            <Box mr={2} height="80px" onClick={() => setCurrentImage({ image: details2, index: 2 })}>
                                 <Image alt="details2" src={details2} />
                             </Box>
-                            <Box
-                                mr={2}
-                                height="80px"
-                                // width="80px"
-                                onClick={() => setCurrentImage({ image: details3, index: 3 })}
-                            >
+                            <Box mr={2} height="80px" onClick={() => setCurrentImage({ image: details3, index: 3 })}>
                                 <Image alt="details3" src={details3} />
                             </Box>
-                            <Box
-                                mr={2}
-                                height="80px"
-                                // width="80px"
-                                onClick={() => setCurrentImage({ image: details4, index: 4 })}
-                            >
+                            <Box mr={2} height="80px" onClick={() => setCurrentImage({ image: details4, index: 4 })}>
                                 <Image alt="details4" src={details4} />
                             </Box>
                         </Stack>
